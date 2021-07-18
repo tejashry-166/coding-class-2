@@ -1,0 +1,31 @@
+import java.util.*;
+class assignment2
+{
+ public static void main(String args[])
+ {
+ Scanner sc=new Scanner(System.in);
+ vector<Integer>v= new vector<Integer>();
+ int n;
+ v.add(101);
+ v.add("Rama");
+ v.add(6.58);
+ v.add(102);
+ v.add("Gita");
+ v.add(8.98);
+ System.out.println(v);
+ v.remove(4);
+ System.out.println(v);
+ v.set(2,9.17);
+ System.out.println(v);
+ System.out.println("Enter value to search");
+ int key=sc.nextInt();
+ if (v.contains(key));
+ {
+ System.out.println("Element found at"+v.indexOf(key));
+ }
+ else
+ {
+ System.out.println("Element not found");
+ }
+ }
+}
