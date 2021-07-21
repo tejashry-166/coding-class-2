@@ -1,0 +1,28 @@
+import java.util.*;
+class assigmnent2
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        int n,m,i;
+        System.out.println("Enter size");
+        n=sc.nextInt();
+        int arr[]=new int[n];
+        System.out.println("Enter elements");
+        for(i=0;i<n;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+         System.out.println("Enter elements");
+         m=sc.nextInt();
+         i=0;
+         while(i<n)
+         {
+             if(arr[i]>m)
+             {
+                  System.out.println(arr[i]);
+             }
+             i++;
+         }
+    }
+}
