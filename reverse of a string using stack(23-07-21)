@@ -1,0 +1,14 @@
+import java.util.*;
+public class assignment2 {
+    public static void main(String args[]) {
+        String str = "ADITYA";
+        Stack<Character>st = new Stack<Character>();
+        for(int i=0;i<str.length();i++) {
+            st.push(str.charAt(i));
+        }
+        while(st.isEmpty()==false) {
+            Character ch = st.pop();
+            System.out.print(ch);
+        }
+    }
+}
